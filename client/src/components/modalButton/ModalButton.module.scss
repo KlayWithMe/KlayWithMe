@@ -10,17 +10,18 @@
     width: 70%;
     height: 30px;
     text-align: center;
-    border: 1px solid #00ffff;
-    color: #00ffff;
+    border: 1px solid #292929bf;
+    color: #292929bf;
     border-radius: 15px;
     background-color: transparent;
     transition: all .3s;
     margin-top: 15px;
-
+  
     &:hover {
       cursor: pointer;
-      background-color: #00ffff;
-      color: #fff;
+      background-color: rgb(255, 154, 145);
+      color: white;
+      border: 1px solid white;
     }
   }
 }

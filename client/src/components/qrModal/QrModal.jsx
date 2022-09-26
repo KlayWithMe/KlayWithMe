@@ -16,8 +16,8 @@ export default function QrModal() {
       size="sm"
       centered
     >
-      <div style={{ backgroundColor: "black", border: "1px solid #00ffff", color: "white", borderRadius: "5px" }}>
-        <Modal.Header style={{ display: "flex", justifyContent: "center", border: "none" }}>
+      <div style={{ backgroundColor: "white", border: "1px solid rgb(255, 154, 145)", color: "white", borderRadius: "5px" }}>
+        <Modal.Header style={{ display: "flex", justifyContent: "center", border: "none", color: "#292929bf" }}>
           <Modal.Title>{modalPrefference.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ display: "flex", justifyContent: "center", border: "none" }}>
