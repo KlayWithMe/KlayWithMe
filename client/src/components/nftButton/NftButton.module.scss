@@ -5,15 +5,15 @@
     width: 100px;
     text-align: center;
     padding: 7px 0;
-    border: 1px solid #00ffff;
-    color: #00ffff;
+    border: 1px solid rgb(232, 96, 96);
+    color: #292929bf;
     border-radius: 15px;
     background-color: transparent;
     transition: all .3s;
 
     &:hover {
       cursor: pointer;
-      background-color: #00ffff;
+      background-color: rgb(232, 96, 96);
       color: #fff;
     }
   }

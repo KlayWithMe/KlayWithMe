@@ -15,6 +15,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   const { user } = useContext(AuthContext);
+  // const user = true;
   return (
     <BrowserRouter>
       <div className="mainWrapper">

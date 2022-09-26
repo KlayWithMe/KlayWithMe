@@ -12,17 +12,24 @@
   }
 
   .textContainer {
-    width: 50%;
+    width: 100%;
 
     .basicContainer {
       display: flex;
       flex-direction: column;
-      width: 90%;
+      width: 100%;
       margin: 30px auto;
+
+      .contentTitleText {
+        color: #292929bf;
+        font-size: 23px;
+        font-weight: bold;
+      }
 
       .contentTitle {
         border-radius: 15px;
         color: #292929;
+        padding-left: 10px;
         font-size: 23px;
         border: solid 1px black;
       }
@@ -47,6 +54,7 @@
         width: 90%;
         height: 250px;
         margin: 30px auto;
+        padding: 10px;
         background-color: #ccc;
         display: flex;
         justify-content: center;
@@ -68,6 +76,10 @@
 
       .descriptContainer {
         padding: 10px;
+        flex-direction: column;
+        display: flex;
+        align-self: flex-end;
+        display: inline;
 
         .ownerName {
           color: #292929;
@@ -82,11 +94,11 @@
 
         .modalButton {
           margin: 0 auto;
-          width: 70%;
+          width: 80%;
           height: 30px;
           text-align: center;
-          border: 1px solid #00ffff;
-          color: #00ffff;
+          border: 1px solid rgb(232, 96, 96);
+          color: #292929bf;
           border-radius: 15px;
           background-color: transparent;
           transition: all .3s;
@@ -94,13 +106,11 @@
       
           &:hover {
             cursor: pointer;
-            background-color: #00ffff;
+            background-color: rgb(232, 96, 96);
             color: #fff;
           }
         }
       }
-
-
     }
   }
   

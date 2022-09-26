@@ -19,6 +19,10 @@ export default function PostDetail() {
   const content = useRef("");
 
   const postUpload = async () => {
+    if (title.current.value == null && content.current.value == null) {
+      alert("Upload failed put title and content!")
+      return ;
+    }
     const postJson = {
       userId: user._id,
       title: title.current.value,
@@ -47,20 +51,20 @@ export default function PostDetail() {
         </div>
         <div className={styles.textContainer}>
           <div className={styles.basicContainer}>
-            <div>Title</div>
+            <div className={styles.contentTitleText}>Title</div>
             <input className={styles.contentTitle} required ref={title}></input>
           </div>
           <div className={styles.uniqueContainer}>
-            <div className={styles.contentContainer}>
-              <textarea
-                className={styles.contentContainerSub}
-                ref={content}
-              ></textarea>
-            </div>
+            <textarea className={styles.contentContainer} required ref={content}></textarea>
             <div className={styles.descriptContainer}>
               <input
                 type="url"
-                style={{ border: "solid 1px black" }}
+                style={{
+                  width: "200px",
+                  border: "solid 1px black",
+                  borderRadius: "15px",
+                  paddingLeft: "10px",
+                }}
                 placeholder={"Please enter image URL"}
                 ref={url}
               />
