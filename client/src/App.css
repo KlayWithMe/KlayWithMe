@@ -34,3 +34,15 @@ code {
 a:link {
   text-decoration: none;
 }
+
+.mainWrapper {
+  display: flex;
+}
+
+.mainLeft {
+  flex: 2;
+}
+
+.mainRight {
+  flex: 8;
+}
