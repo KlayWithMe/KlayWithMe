@@ -25,6 +25,18 @@ app.use("/api/auth", authRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/klaytn", klaytnRoute);
 
+// Serve static assets if in production
+if (process.env.NODE_ENV === "production") {
+
+	// Set static folder
+	app.use(express.static("client/build"));
+
+	// index.html for all page routes
+	app.get("*", (req, res) => {
+		res.sendFile(path.resolve(__dirname, "../client", "build", "index.html"));
+	});
+}
+
 app.listen(8800, () => {
 	console.log("Backend server is running!")
 });

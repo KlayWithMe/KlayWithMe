@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": "16.15.1",
+    "npm": "8.12.1"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "backend": "nodemon server/index.js",
+    "frontend": "npm run front --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run bulid --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "caver-js": "^1.9.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
