@@ -8,7 +8,6 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import PostDetail from "./components/postDetail/PostDetail";
 import Posting from "./pages/posting/Posting";
-import Main from "./components/main/Main";
 import { AuthContext } from "./context/AuthContext";
 import { useContext } from "react";
 

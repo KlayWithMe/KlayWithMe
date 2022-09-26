@@ -19,8 +19,8 @@
       width: 100px;
       height: 30px;
       text-align: center;
-      border: 1px solid #00ffff;
-      color: #00ffff;
+      border: 1px solid rgb(255, 154, 145);
+      color: #292929bf;
       border-radius: 15px;
       background-color: transparent;
       transition: all .3s;
@@ -28,7 +28,7 @@
 
       &:hover {
         cursor: pointer;
-        background-color: #00ffff;
+        background-color: rgb(255, 154, 145);
         color: #fff;
       }
     }

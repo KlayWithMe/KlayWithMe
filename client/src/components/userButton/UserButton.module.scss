@@ -1,18 +1,18 @@
 .container {
   .modalButton {
-    width: 120px;
     text-align: center;
-    padding: 7px 0;
-    border: 1px solid #00ffff;
-    color: #00ffff;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
     border-radius: 15px;
     background-color: transparent;
     transition: all .3s;
+    padding: 8px 17px;
+    margin: 0 auto;
 
     &:hover {
       cursor: pointer;
-      background-color: #00ffff;
-      color: #fff;
+      background-color: rgb(232, 96, 96)
     }
   }
 }

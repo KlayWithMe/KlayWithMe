@@ -41,7 +41,7 @@ export default function MarketFeed() {
   return (
     <section className={styles.container}>
       <div className={styles.title}>
-        Klayklay Market
+        Market
       </div>
       <div className={styles.postContainer}>
         {posts.map((p) => (

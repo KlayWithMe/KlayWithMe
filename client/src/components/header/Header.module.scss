@@ -1,7 +1,11 @@
 .container {
   width: 100%;
-  height:  calc(100vh - 70px);
+  height: calc(100vh);
+  overflow-y: scroll;
   background-color: rgb(255, 154, 145);
+  position: sticky;
+  top: 0;
+	z-index: 999;
 
   .inner {
     width: 80%;
