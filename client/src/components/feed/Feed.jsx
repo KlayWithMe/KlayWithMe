@@ -27,9 +27,6 @@ export default function Feed() {
 
   return (
     <section className={styles.container}>
-      <div className={styles.title}>
-        Klayklay Feed
-      </div>
       <div className={styles.postContainer}>
         {posts.map((p) => (
           <Post key={p._id} index={idx++} post={p} />

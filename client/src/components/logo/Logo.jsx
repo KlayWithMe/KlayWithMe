@@ -7,7 +7,7 @@ export default function Logo() {
     <div>
       <Link to="/">
         <span className={styles.title}>
-          Klayklay
+          KlayWithMe
         </span>
       </Link>
     </div>

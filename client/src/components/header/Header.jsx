@@ -24,17 +24,18 @@ function Header() {
             <Link to="/posting">
               <span className={styles.navItem}>Posting</span>
             </Link>
+            <span className={styles.modalButton}>
+              {user ? (
+                <UserButton />
+              ) : (
+                <LoginButton className={styles.modalButton}></LoginButton>
+              )}
+            </span>
           </nav>
-          <div className={styles.walletContainer}>
-            {user
-              ? <UserButton />
-              : <LoginButton className={styles.modalButton} />
-            }
-          </div>
         </div>
       </header>
     </ModalContextProvider>
-  )
+  );
 }
 
 export default Header
