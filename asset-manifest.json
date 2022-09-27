@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KlayWithMe/static/css/main.8e280d78.chunk.css",
+    "main.js": "/KlayWithMe/static/js/main.5df27f38.chunk.js",
+    "main.js.map": "/KlayWithMe/static/js/main.5df27f38.chunk.js.map",
+    "runtime-main.js": "/KlayWithMe/static/js/runtime-main.ff887e21.js",
+    "runtime-main.js.map": "/KlayWithMe/static/js/runtime-main.ff887e21.js.map",
+    "static/css/2.984f751f.chunk.css": "/KlayWithMe/static/css/2.984f751f.chunk.css",
+    "static/js/2.260c2302.chunk.js": "/KlayWithMe/static/js/2.260c2302.chunk.js",
+    "static/js/2.260c2302.chunk.js.map": "/KlayWithMe/static/js/2.260c2302.chunk.js.map",
+    "index.html": "/KlayWithMe/index.html",
+    "static/css/2.984f751f.chunk.css.map": "/KlayWithMe/static/css/2.984f751f.chunk.css.map",
+    "static/css/main.8e280d78.chunk.css.map": "/KlayWithMe/static/css/main.8e280d78.chunk.css.map",
+    "static/js/2.260c2302.chunk.js.LICENSE.txt": "/KlayWithMe/static/js/2.260c2302.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff887e21.js",
+    "static/css/2.984f751f.chunk.css",
+    "static/js/2.260c2302.chunk.js",
+    "static/css/main.8e280d78.chunk.css",
+    "static/js/main.5df27f38.chunk.js"
+  ]
+}
