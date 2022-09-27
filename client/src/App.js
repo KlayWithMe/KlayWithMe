@@ -17,7 +17,7 @@ function App() {
   const { user } = useContext(AuthContext);
   // const user = true;
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL ? process.env.PUBLIC_UR : ''}>
       <div className="mainWrapper">
         <div className="mainLeft">
           <Header />

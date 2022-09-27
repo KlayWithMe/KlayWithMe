@@ -18,6 +18,7 @@
     "caver-js": "^1.9.0",
     "dataformat": "^1.0.0",
     "dateformat": "^5.0.3",
+    "gh-pages": "^4.0.0",
     "http-proxy-middleware": "^2.0.6",
     "install": "^0.13.0",
     "node-sass": "^7.0.3",
@@ -38,7 +39,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,5 +60,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8800/api"
+  "proxy": "http://ec2-15-165-74-229.ap-northeast-2.compute.amazonaws.com:8800/api",
+  "homepage": "https://aLVINlEE9.github.io/KlayWithMe"
 }
